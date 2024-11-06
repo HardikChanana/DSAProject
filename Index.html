@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>Amazon Clone</h1>
+        <input type="text" id="search-bar" placeholder="Search for products...">
+    </div>
+
+    <!-- Product Catalog -->
+    <div class="catalog">
+        <h2>Product Catalog</h2>
+        <div id="product-list" class="product-list"></div> <!-- Product cards will be displayed here -->
+    </div>
+
+    <!-- Modal for Product Details -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <div id="product-details"></div> <!-- Product details will be displayed here -->
+        </div>
+    </div>
+
+    <!-- Display Time Difference for Server vs Cache Requests -->
+    <div id="time-display" style="margin-top: 1em; font-weight: bold; color: #333;"></div>
+
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
